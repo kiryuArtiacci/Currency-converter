@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: #141414;
+}
+
+.padre{
+    width: 90%;
+    max-width: 25em;
+    background: rgb(45, 45, 116);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border-radius: 5em;
+    color: #e7e7e7;
+}
+
+.detalles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-app{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+}
+
+input#montoo{
+    font-weight: 400;
+    font-size: 1.2em;
+    background: rgb(45, 45, 116);
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #e7e7e7;
+    color: #e7e7e7;
+    margin-bottom: 2em;
+}
+
+.dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    width: 47%;
+    padding: 0.6em;
+    border-radius: 0.2em;
+}
+
+button{
+    font-size: 1em;
+    width: 100%;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 0.8em;
+    color: rgb(36, 36, 48);
+}
+
+.montosolotexto{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    display: block;
+    font-weight: 600;
+}
+
+#resultado{
+    font-weight: 400;
+    font-size: 1.2em;
+    background: rgb(45, 45, 116);
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #e7e7e7;
+    color: #e7e7e7;
+    margin-bottom: 1em;
+}
+
+#boton-convertir:active {
+    background-color: #6e6d6d;
+  }
